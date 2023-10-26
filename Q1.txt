@@ -1,0 +1,29 @@
+Write a blog on Differnce between Document and Window objects
+
+Answer:
+
+Document Object:
+    Document object is a property of window Object.It store the HTML codes
+        
+        =>It represent the document loaded inside the window.
+
+        =>Document loaded after the window because window contains the Document.
+
+        =>It is an object of window.
+
+        =>properties related to document are stored in Document object.
+
+        =>we cannot access window object properties inside the document.Because Document objectis loacted insid ethe window object.
+
+Window object:
+    Window object  is the global object in the web browser environment.
+
+        =>It repersent the browser window in which we can see the content of the webpage.
+
+        =>when we open the browser,window object is loaded first.
+
+        =>It is an Object of browser.
+
+        =>The properties related to window are stored inside the window object.
+
+        =>we can access document object properties inside the window object.
